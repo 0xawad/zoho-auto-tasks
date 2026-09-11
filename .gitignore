@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.env
+.env.local
+secrets.json
+token-cache.json
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/
+tmp/

@@ -1,0 +1,27 @@
+{
+  "workDate": "today",
+  "sourceText": "Auditax: installed Ubuntu, deployed Nessus, ran vulnerability scans. Makana: troubleshot connection problems, still failing. Need to write the AI Studio report tomorrow.",
+  "tasks": [
+    {
+      "sourceRef": "Auditax: installed Ubuntu, deployed Nessus, ran vulnerability scans.",
+      "subject": "Auditax — Ubuntu deployment and vulnerability scanning",
+      "description": "Installed Ubuntu, deployed Nessus, and ran vulnerability scans for Auditax.",
+      "clientLabel": "Auditax",
+      "statusIntent": "completed_work_session"
+    },
+    {
+      "sourceRef": "Makana: troubleshot connection problems, still failing.",
+      "subject": "Makana — Connection troubleshooting",
+      "description": "Investigated connection problems affecting Makana. The issue remained unresolved at the end of the work session.",
+      "clientLabel": "Makana",
+      "statusIntent": "completed_work_session"
+    },
+    {
+      "sourceRef": "Need to write the AI Studio report tomorrow.",
+      "subject": "AI Studio — Report preparation",
+      "description": "Planned: prepare the AI Studio report.",
+      "clientLabel": "AI Studio",
+      "statusIntent": "planned"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "region": "eu",
+  "orgId": "REPLACE_WITH_ORG_ID",
+  "timezone": "Asia/Beirut",
+  "defaults": {
+    "departmentId": "REPLACE_WITH_DEPARTMENT_ID",
+    "ownerId": "REPLACE_WITH_AGENT_ID",
+    "priority": "Normal"
+  },
+  "statusMap": {
+    "completed_work_session": "Completed",
+    "in_progress": "In Progress",
+    "planned": "Not Started"
+  },
+  "workDate": {
+    "mode": "none",
+    "customFieldApiName": null
+  },
+  "workSession": {
+    "enabled": false,
+    "windowStart": "09:00",
+    "windowEnd": "18:00",
+    "startFieldApiName": null,
+    "endFieldApiName": null,
+    "percentageFieldApiName": null,
+    "percentageValue": 100,
+    "defaultMinutes": 60,
+    "minMinutes": 15,
+    "maxMinutes": 480,
+    "granularityMinutes": 5
+  },
+  "aliases": {},
+  "statusFollowUp": {
+    "patchIfNotClosed": false
+  },
+  "submissionMode": "preview",
+  "limits": {
+    "maxBatchSize": 25,
+    "requestTimeoutMs": 20000,
+    "maxRetries": 3,
+    "duplicateWindowDays": 7
+  },
+  "retentionDays": 30
+}
